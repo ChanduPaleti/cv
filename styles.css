@@ -1,0 +1,123 @@
+body{
+  margin: 0;
+  text-align: center;
+  font-family:'Merriweather',serif;
+  color: #40514E;
+}
+hr{
+ margin-top: 50px;/*margin:100px auto*/
+  width: 5%;
+  border-style:none;
+  border-top-style: dotted;
+border-width: 5px;
+}
+h1{
+  /* width:10px; 100%=16px=1em*/
+  /*em adds to parent font,rem,px doesn't add*/
+  /*use margin:auto for placing central*/
+  margin: 0;
+  font-size: 562.5%;
+    padding-top: 150px;
+  font-family: 'Sacramento',cursive;
+}
+h2{
+  font-family: 'Montserrat',sans-serif;
+  font-size: 2.5rem;
+}
+/* .xxx {
+  margin: 50px;
+} */
+
+h3{
+  font-family: 'Montserrat',sans-serif;
+}
+/* .middle{
+  background-color: red;
+  height: 200px;
+  width: 200px;
+}
+.botto1m{
+  background-color: blue;
+  height: 200px;
+  width: 200px;
+} */
+.pro{
+  text-decoration: underline;
+}
+.top{
+  background-color: #E4F9F5;
+    position: relative;
+}
+.bottom-cloud{
+  position:absolute;
+  top: 50px;/* margin from parent which have relative*/
+  right: 350px;
+}
+.top-cloud{
+  position:absolute;
+  left: 350px;
+  bottom: 300px;
+}
+.ch{
+  height: 200px;
+   width: 200px;
+  border-radius: 100%;
+}
+
+.skill-row{
+  margin: 50px auto 50px auto;
+  width: 50%;
+  text-align: left;
+  line-height: 1;
+}
+
+/*for image keep float:left to get text beside image*/
+/* for a paragraph to be pushed into new line not on float use clear:left
+on that paragraph class;*/
+.img1{
+  float:left;
+  margin-right: 300px;
+}
+.img2{
+  float:right;
+  margin-left: auto;
+}
+.btn{
+  background: #11cdd4;
+  background-image: linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  border-radius: 8px;
+  font-family: 'Montserrat',sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+.bottom-container{
+  margin-top:50px;
+  background-color: #66BFBF;
+  padding-top: 10px;
+}
+a{
+    font-family: 'Montserrat',sans-serif;
+    margin: 15px 20px;
+    text-decoration: none;
+
+}
+a:hover{
+  color: #EAF6F6;
+}
+.hyp{
+  padding-bottom: 5px;
+}
+.copyright{
+  color:#EAF6F6;
+  font-size: 0.75rem;
+}
